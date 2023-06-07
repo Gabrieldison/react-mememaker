@@ -19,15 +19,17 @@ The project structure is as follows:
 
 ## How it Works
 
-This example demonstrates a simple counter application using the Context API. The `MyContext.js` file defines the context and provides the `count` state and an `increment()` function to its child components.
-
-The `App.js` component renders `ComponentA` and `ComponentB` components. Both components consume the `count` state from the context and display it. When the user clicks the "Increment" button in `ComponentA`, it calls the `increment()` function from the context, which updates the count and triggers a re-render in both components.
-
+Through the imgflip api, you make a request for the meme templates, after that you can add the text fields that the templates will allow and after that just click to generate and your meme will be ready
 ## Stack used
 
 **Front-end:** React, styled-components
 
+## Referência
+
+ - [imgflip API](https://imgflip.com/api)
+
 ## Demonstration
+![React App - Google Chrome 2023-06-07 15-43-41](https://github.com/Gabrieldison/react-mememaker/assets/85500242/95539102-ee5c-4662-8483-a308e2d117dc)
 
 
 
